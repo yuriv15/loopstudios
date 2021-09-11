@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+}
+
+#header {
+    display: flex;
+    background-image: url("../images/mobile/image-hero.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 650px;
+}
+.menu-bar{
+align-self: baseline; 
+}
+
+#menu{
+    display: none;
+} 
+
+#main-title{
+    display: block;
+}
