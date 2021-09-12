@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;  
@@ -8,25 +10,185 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 375px;
+    width: 100vw;
+    font-size: 4vw;
 }
 
 #header {
     display: flex;
-    background-image: url("../images/mobile/image-hero.jpg") ;
+    flex-direction: column;
+    background-image: url("../images/mobile/image-hero.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 375px;
-    height: 650px;
+    width: 100%;
+    height: 200vw;
+    padding: 13vw 7vw 0;
 }
+
 .menu-bar{
-align-self: baseline; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 #menu{
+    position: absolute;
     display: none;
 } 
 
 #main-title{
-    display: block;
+    border: solid white 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 10.7vw;
+    padding: 5vw;
+    margin-top: 40vw;
+    align-self: center;
+}
+
+#main {
+    padding: 0 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#interactive-section > img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+
+.subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 8vw;
+    margin-bottom: 6vw;
+}
+
+#interactive-section > p {
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+    margin-bottom: 25vw;
+}
+
+#creations-items {
+    list-style: none;
+}
+
+.creations-item {
+    margin-top: 6vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 86vw;
+    height: 32vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    font-size: 6vw;
+    padding: 0 55% 7% 6%;
+    text-align: left;
+}
+
+#creation1 {
+    background-image: url("../images/mobile/image-deep-earth.jpg");
+}
+
+#creation2 {
+    background-image: url("../images/mobile/image-night-arcade.jpg");
+}
+
+#creation3 {
+    background-image: url("../images/mobile/image-soccer-team.jpg");
+}
+
+#creation4 {
+    background-image: url("../images/mobile/image-grid.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#creation5 {
+    background-image: url("../images/mobile/image-from-above.jpg");
+}
+
+#creation6 {
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
+}
+
+#creation7 {
+    background-image: url("../images/mobile/image-curiosity.jpg");
+}
+
+#creation8 {
+    background-image: url("../images/mobile/image-fisheye.jpg");
+}
+
+#main > button {
+    margin-top: 6vw;
+    margin-bottom: 25vw;
+    width: 44vw;
+    height: 10vw;
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4vw;
+    letter-spacing: 0.3em;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20vw;
+}
+
+#footer-items {
+    list-style: none;
+    text-align: center;
+}
+
+.footer-item {
+    margin-top: 6vw;
+}
+
+.footer-item > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#social-media-icons {
+    list-style: none;
+    display: flex;
+    margin-top: 15vw;
+}
+
+.social-media-icon {
+    margin: 0 2vw;
+}
+
+#copyright {
+    margin-top: 5vw;
+    margin-bottom: 20vw;
+    color: hsl(0, 0%, 41%);
 }
