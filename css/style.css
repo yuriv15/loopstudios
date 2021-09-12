@@ -33,8 +33,44 @@
 
 #menu{
     position: absolute;
-    display: none;
-} 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 13vw 7vw 0;
+    z-index: -10;
+    opacity: 0;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+#menu.active {
+    position: fixed;
+    opacity: 100;
+    z-index: 10;
+}
+
+#menu-items {
+    list-style: none;
+    margin-top: 30vw;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 7vw;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-item {
+    margin-top: 8vw;
+}
 
 #main-title{
     border: solid white 2px;
@@ -77,6 +113,10 @@
 
 #creations-items {
     list-style: none;
+}
+
+#creations-items > a {
+    text-decoration: none;
 }
 
 .creations-item {
@@ -133,7 +173,11 @@
     background-image: url("../images/mobile/image-fisheye.jpg");
 }
 
-#main > button {
+#main > a {
+    text-decoration: none;
+}
+
+#main > a > button {
     margin-top: 6vw;
     margin-bottom: 25vw;
     width: 44vw;
