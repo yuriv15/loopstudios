@@ -427,6 +427,7 @@
     .creation-item-desktop:hover{
         cursor: pointer;
         color: black;
+        background-size: contain;
     }
 
     #creation1-desktop{
@@ -434,14 +435,26 @@
         grid-area: creation1;
     }
 
+    #creation1-desktop:hover {
+        background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-deep-earth.jpg);
+    }
+
     #creation2-desktop{
         background-image: url(../images/desktop/image-night-arcade.jpg);
         grid-area: creation2;
     }
 
+    #creation2-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-night-arcade.jpg);
+    }
+
     #creation3-desktop{
         background-image: url(../images/desktop/image-soccer-team.jpg);
         grid-area: creation3;
+    }
+
+    #creation3-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-soccer-team.jpg);
     }
 
     #creation4-desktop{
@@ -453,9 +466,17 @@
         align-items: flex-start;
     }
 
+    #creation4-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-grid.jpg);
+    }
+
     #creation5-desktop{
         background-image: url(../images/desktop/image-from-above.jpg);
         grid-area: creation5;
+    }
+
+    #creation5-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-from-above.jpg);
     }
 
     #creation6-desktop{
@@ -463,14 +484,26 @@
         grid-area: creation6;
     }
 
+    #creation6-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-pocket-borealis.jpg);
+    }
+
     #creation7-desktop{
         background-image: url(../images/desktop/image-curiosity.jpg);
         grid-area: creation7;
     }
 
+    #creation7-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-curiosity.jpg);
+    }  
+
     #creation8-desktop{
         background-image: url(../images/desktop/image-fisheye.jpg);
         grid-area: creation8;
+    }
+
+    #creation8-desktop:hover{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/desktop/image-fisheye.jpg);
     }
 
     #footer {
